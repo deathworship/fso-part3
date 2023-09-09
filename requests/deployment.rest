@@ -1,0 +1,58 @@
+
+GET https://phonebook-backend-f7hm.onrender.com/info/
+
+###
+
+GET https://phonebook-backend-f7hm.onrender.com/api/persons/
+
+###
+
+DELETE https://phonebook-backend-f7hm.onrender.com/api/persons/1
+
+###
+
+POST https://phonebook-backend-f7hm.onrender.com/api/persons/
+Content-Type: application/json
+
+{
+    "name": "test",
+    "number": "123-123"
+}
+
+###
+
+POST https://phonebook-backend-f7hm.onrender.com/api/persons/
+Content-Type: application/json
+
+{
+    "name": "test2",
+    "number": "123-123"
+}
+
+###
+
+POST https://phonebook-backend-f7hm.onrender.com/api/persons/
+Content-Type: application/json
+
+{
+    "name": "test"
+}
+
+###
+
+POST https://phonebook-backend-f7hm.onrender.com/api/persons/
+Content-Type: application/json
+
+{
+    "number": "123-123"
+}
+
+###
+
+POST https://phonebook-backend-f7hm.onrender.com/api/persons/
+Content-Type: application/json
+
+{
+    "name": "Arto Hellas",
+    "number": "123-123"
+}
